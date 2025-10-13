@@ -94,6 +94,9 @@
         <plugin>
           <artifactId>maven-compiler-plugin</artifactId>
           <version>2.3.2</version>
+          <configuration>
+                  <release>8</release> <!-- or 11, 17, etc. -->
+         </configuration>
         </plugin>
 
         <plugin>
